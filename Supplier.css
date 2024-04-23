@@ -1,0 +1,279 @@
+.template {
+  width: 120vw;
+  height: 120vh;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-weight: bold;
+
+}
+
+.heading {
+  background-color: rgb(226, 99, 36);
+  color: rgb(252, 249, 249);
+  text-align: center;
+}
+
+div {
+  font-weight: bold;
+}
+
+.bold-extra {
+  font-weight: 900;
+}
+
+div.container{
+  max-width: 999px;
+  padding-left:11px;
+}
+
+
+.table{
+  background-color: #b3f1c4;
+  width: 100px;
+  
+
+}
+.row{
+  width: 80%;
+  margin-left:100px;
+}
+
+
+.add_btn {
+  text-align: right
+}
+
+.quantity {
+  margin-left: 2cm;
+}
+
+.row_order {
+  margin-top: 10%;
+  margin-left: 30%;
+
+  align-items: center;
+
+}
+
+
+
+
+.navbar1 {
+
+  z-index: 999;
+  background-color: #E5E7E9;
+  right: 0;
+  width: 83.5%;
+  color: rgb(237, 231, 231);
+  height: 110px;
+  margin-left: 200px;
+ 
+
+
+}
+ 
+.navbar h5{
+
+    position: absolute;
+    top: 5px;
+    left: 50px;
+  
+}
+.navbar li{
+  margin-top: 9%;
+}
+
+.d-flex {
+  float: left;
+
+}
+
+.nav-item1 {
+
+  color: rgb(212, 202, 200);
+  margin-left: 100px;
+  transition: background-color 0.1s ease-in-out;
+
+
+}
+
+.nav-item1:hover {
+  background-color: #ccc6eb;
+  border-radius: 10px;
+  color: #ffffff;
+
+
+}
+
+
+.nav-link {
+  color: white;
+}
+
+.active {
+  background-color: #6f7892;
+  border-radius: 10px;
+ 
+
+}
+
+
+
+.container {
+  position:relative;
+  left: 80px;
+  top: 160px;
+
+}
+
+
+h1,h4 {
+  text-align: right;
+  color: #dfd8d8;
+  
+}
+
+h2{
+  color: rgb(47, 20, 129);
+  text-align:center;
+}
+
+.order {
+  text-align: center;
+
+}
+
+.row_order {
+  position: relative;
+  margin-left: 0%;
+
+  text-align: center;
+
+  text-align: center;
+}
+
+.select {
+
+  position: relative;
+  left: 30%;
+}
+
+tr:nth-child(odd) {
+  background-color: #ea8e60;
+
+}
+
+
+tr:nth-child(even) {
+  background-color: white;
+  
+}
+
+input,
+option{
+
+  background: linear-gradient(to right, #d9d9d9, #dce7e9),
+  
+    #ffffff;
+}
+
+
+
+.form-check-input {
+  border-width: 30px;
+}
+
+.medlist option{
+ background-color: #93c4cf;
+}
+.medlist input,option{
+  
+  border: "1px solid black";
+  border-radius: 5px;
+}
+.overflow-y-scroll {
+  border: 1px solid black;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 5px;
+  width: 600px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+textarea {
+  height: 100pxpx;
+  width: 50%;
+  resize: none;
+ background: linear-gradient(to right, #d9d9d9, #dce7e9), #ffffff; 
+  border: 1px solid black; 
+  padding: 10px; 
+  
+}
+.form-label {
+  display: block; /* Ensure labels are displayed on separate lines */
+  margin-bottom: 0.5rem; /* Add space between label and input */
+  font-weight: bold; /* Make labels bold for better visibility */
+}
+.form-control {
+  width: 100%; /* Make inputs take up full width */
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 0.25rem; /* Add some rounded corners */
+  font-size: 1rem; /* Set font size for inputs */
+}
+
+
+.side_bar ul{
+  margin-top: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side_bar li{
+  position: sticky;
+  text-align: center;
+  border-bottom: 1px soild #ddd;
+}
+
+.side_bar li a{
+  display: block;
+  color:#eeebeb;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.side_bar a:hover{
+  background-color:#b3f1c4;
+}
+
+
+.con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 0.5rem; /* Optional rounded corners */
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+}
+
+/*button {
+  width: 150px; 
+  padding: 20px;
+  margin-right: 10px; 
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}*/
+
